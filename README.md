@@ -1,3 +1,13 @@
+https://blog.angular-university.io/angular-jwt-authentication/
+
+https://www.techiediaries.com/node-express-jwt-authentication/
+
+https://jasonwatmore.com/post/2018/11/16/angular-7-jwt-authentication-example-tutorial#jwt-interceptor-ts
+
+https://github.com/auth0/node-jsonwebtoken
+
+
+
 # ActivityTracker
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.2.

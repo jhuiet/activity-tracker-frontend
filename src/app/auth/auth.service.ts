@@ -5,7 +5,9 @@ import { UserLogin } from './user-login.model';
 
 
 
-@Injectable()
+@Injectable({
+  providedIn: 'root',
+})
 export class AuthService {
   constructor(private http: HttpClient) {}
 

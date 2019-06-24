@@ -13,6 +13,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './auth/login/login.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { RegisterComponent } from './auth/register/register.component';
+import { RecoveryComponent } from './auth/recovery/recovery.component';
+import { ChangePasswordComponent } from './auth/recovery/change-password/change-password.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { RegisterComponent } from './auth/register/register.component';
     ActivityDetailComponent,
     ActivityEditComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    RecoveryComponent,
+    ChangePasswordComponent
   ],
   imports: [
     BrowserModule,

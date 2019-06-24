@@ -1,12 +1,14 @@
-<header class="loginHeader">Harambe</header>
-
-
 <div class="container">
+  <div class="headerContainer">
+    <h1 class="loginHeader">Activity Tracker</h1>
+  </div>
   <form [formGroup]="form" class="loginForm">
-        <label>Email:</label>
-        <input type="text" name="email" formControlName="email">
-        <label>Password:</label>
-        <input name="password" formControlName="password" type="password">
-      <button (click)="login()">Login</button>
+    <label>Email:</label>
+    <input type="text" name="email" formControlName="email" />
+    <label>Password:</label>
+    <input name="password" formControlName="password" type="password" />
+    <button class="loginButton" (click)="login()">Login</button>
+    <br><br>
+    <a routerLink="login/recovery">Forgot password</a>
   </form>
 </div>

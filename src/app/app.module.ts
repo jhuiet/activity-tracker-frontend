@@ -16,6 +16,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { RegisterComponent } from './auth/register/register.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
+import { RecoveryComponent } from './auth/recovery/recovery.component';
+import { ChangePasswordComponent } from './auth/recovery/change-password/change-password.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     ActivityDetailComponent,
     ActivityEditComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    RecoveryComponent,
+    ChangePasswordComponent
   ],
   imports: [
     BrowserModule,

@@ -9,6 +9,8 @@ https://github.com/auth0/node-jsonwebtoken
 
 https://angular.io/guide/lazy-loading-ngmodules
 
+https://medium.com/@tomastrajan/how-to-build-responsive-layouts-with-bootstrap-4-and-angular-6-cfbb108d797b
+
 
 # ActivityTracker
 

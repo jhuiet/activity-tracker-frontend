@@ -1,6 +1,14 @@
-<head>
+<!-- <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+</head> -->
+<button routerLink="/activities">Customers</button>
+<button routerLink="">Home</button>
+
+<p>
+  <ngb-alert *ngIf="!alertClosed" [dismissible]="true" (close)="alertClosed=true">
+    <strong>Warning!</strong> Better check yourself, you're not looking too good.
+  </ngb-alert>
+</p>
 <div class="mainContainer">
   <router-outlet></router-outlet>
 </div>

@@ -7,6 +7,8 @@ https://jasonwatmore.com/post/2018/11/16/angular-7-jwt-authentication-example-tu
 https://github.com/auth0/node-jsonwebtoken
 
 
+https://angular.io/guide/lazy-loading-ngmodules
+
 
 # ActivityTracker
 
